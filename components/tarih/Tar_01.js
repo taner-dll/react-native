@@ -2,11 +2,11 @@
 import React from 'react';
 import { Text, View, Button, StyleSheet } from 'react-native';
 
-class StateScreen extends React.Component {
+class Tar_01 extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>State Screen</Text>
+        <Text>İlk Türk Devletleri</Text>
         <Button
           title="Go to Home"
           onPress={() => this.props.navigation.navigate('Home')}
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StateScreen; 
+export default Tar_01; 
